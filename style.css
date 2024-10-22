@@ -41,3 +41,15 @@ h1, h2 {
 #about {
   font-size: 16px;
 }
+
+.custom-container {
+  width: 68%;
+  max-width: 800px;
+  height: 180px;
+  padding: 30px;
+  background-color: #f0f0f0;
+  margin: 0 auto;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+}
