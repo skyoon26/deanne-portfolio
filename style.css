@@ -53,6 +53,6 @@ h1, h2, h5 {
 }
 
 section {
-  padding-top: 60px; /* Adjust based on your navbar height */
-  margin-top: -80px; /* Negative margin to offset the extra padding */
+  padding-top: 20px;
+  margin-top: -80px;
 }
