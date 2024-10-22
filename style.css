@@ -4,6 +4,7 @@ nav {
 
 body {
   font-family: "Open Sans", sans-serif;
+  font-size: 16px;
 }
 
 .gradient-background {
@@ -13,7 +14,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 60vh;
+  min-height: 100vh;
 }
 
 @keyframes gradient-animation {
@@ -32,14 +33,10 @@ body {
   color: white;
 }
 
-h1, h2 {
+h1, h2, h5 {
   letter-spacing: 2px;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
-}
-
-#about {
-  font-size: 16px;
 }
 
 .custom-container {
@@ -53,4 +50,9 @@ h1, h2 {
   display: flex; 
   align-items: center;
   justify-content: center;
+}
+
+section {
+  padding-top: 60px; /* Adjust based on your navbar height */
+  margin-top: -80px; /* Negative margin to offset the extra padding */
 }
