@@ -1,5 +1,5 @@
 nav {
-  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
 }
 
 body {
@@ -33,23 +33,15 @@ body {
   color: white;
 }
 
-h1, h2, h5 {
+nav, h1, h2, h5 {
   letter-spacing: 2px;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
 }
 
 .custom-container {
-  width: 68%;
-  min-width: 400px;
-  max-width: 700px;
   height: 180px;
-  padding: 30px;
   background-color: #f0f0f0;
-  margin: 0 auto;
-  display: flex; 
-  align-items: center;
-  justify-content: center;
 }
 
 section {
