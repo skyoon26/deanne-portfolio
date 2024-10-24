@@ -48,3 +48,29 @@ section {
   padding-top: 20px;
   margin-top: -80px;
 }
+
+#resume {
+  background-image: url(./images/grid-background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height:350px;
+  color: #001F54;
+  
+}
+
+button {
+  background-color: rgba(0, 31, 84, 0.6);
+  color: white; 
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-size: 16px;
+  transition: transform 0.3s ease;
+  letter-spacing: 1px;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
