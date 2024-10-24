@@ -55,20 +55,22 @@ section {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  height:350px;
+  height:300px;
   color: #001F54;
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 button {
   background-color: rgba(0, 31, 84, 0.6);
   color: white; 
   border: none;
-  padding: 10px 20px;
-  margin-top: 10px;
   font-size: 16px;
   transition: transform 0.3s ease;
   letter-spacing: 1px;
+  margin-top: 10px;
+  padding: 10px 20px;
 }
 
 button:hover {
