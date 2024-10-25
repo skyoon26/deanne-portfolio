@@ -40,8 +40,9 @@ nav, h1, h2, h5 {
 }
 
 .custom-container {
-  height: 180px;
+  height: 160px;
   background-color: #f0f0f0;
+  border-radius: 10px;
 }
 
 section {
@@ -71,8 +72,17 @@ button {
   letter-spacing: 1px;
   margin-top: 10px;
   padding: 10px 20px;
+  border-radius: 5px;
 }
 
 button:hover {
   transform: scale(1.1);
+}
+
+.modal-text {
+  font-size: 15px;
+}
+
+.modal-header, .modal-footer {
+  background-color: #f0f0f0;
 }
