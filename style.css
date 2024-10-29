@@ -86,3 +86,10 @@ button:hover {
 .modal-header, .modal-footer {
   background-color: #f0f0f0;
 }
+
+@media (max-width: 768px) {
+  .your-element {
+      background-size: contain; /* Change for mobile */
+      background-position: center; /* Center the image */
+  }
+}
