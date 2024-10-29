@@ -56,7 +56,8 @@ section {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  height:300px;
+  height: 350px;
+  width: 100%;
   color: #001F54;
   display: flex;
   justify-content: center;
@@ -88,8 +89,8 @@ button:hover {
 }
 
 @media (max-width: 768px) {
-  .your-element {
-      background-size: contain; /* Change for mobile */
-      background-position: center; /* Center the image */
+  #resume {
+      background-size: contain;
+      background-position: center;
   }
 }
