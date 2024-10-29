@@ -89,6 +89,11 @@ button:hover {
   background-color: #f0f0f0;
 }
 
+#contact {
+  margin: 0;
+  padding: 0;
+}
+
 @media (max-width: 768px) {
   #resume {
     background-attachment: scroll; 
