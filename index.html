@@ -400,11 +400,29 @@
                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                          <img src="./images/weather-app.png" alt="Weather App" class="img-fluid">
+                          <!-- Carousel -->
+                          <div id="weather-carousel" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="./images/weather-one.png" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./images/weather-two.png" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#weather-carousel" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#weather-carousel" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
                           <p class="text-start pt-3 px-3 modal-text m-0">
-                            I developed this weather app to gain experience connecting to public APIs, utilizing OpenWeather's Weather API. The app features a simple interface that allows users to search for weather information by city. Notable enhancements include a toggle switch for switching between Celsius and Fahrenheit, and the ability to submit searches using either the enter key or a button click for improved usability.
+                            I created this project to gain experience connecting to public APIs by utilizing OpenWeather's Weather API. While following an online tutorial, I added personal features to make the app more unique and user-friendly. Notable improvements include a toggle switch for switching between metric and imperial units, as well as the ability to submit searches using either the enter key or a button click, enhancing usability.
                           </p>
-                          <h6 class="text-start pt-3 px-3 m-0">Technologies: HTML, CSS, JavaScript </h6>
+                          <h6 class="text-start pt-3 px-3 m-0">Technologies: HTML, CSS, JavaScript</h6>
                           <div class="my-2">
                             <a href="https://github.com/skyoon26/weather-app" target="_blank">
                               <button type="button">View Source</button>
